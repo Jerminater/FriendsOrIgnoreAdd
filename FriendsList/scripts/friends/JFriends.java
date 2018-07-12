@@ -57,7 +57,6 @@ public class JFriends extends Script implements  Starting, Ending {
             	// ignore > 432 > 11
             	if (line.substring(0, 2).equals("f-")) 
             	{
-            		General.println("here");
             		if (GameTab.open(GameTab.TABS.FRIENDS)) 
             		{
             			RSInterfaceChild i = Interfaces.get(429,12);
@@ -66,7 +65,6 @@ public class JFriends extends Script implements  Starting, Ending {
             				Clicking.click(i);
             				General.sleep(500);
             				Keyboard.typeSend(line.substring(2));
-            				println("good");
             			}
             		}
             	} else if (line.substring(0, 2).equals("i-")) 
@@ -78,7 +76,6 @@ public class JFriends extends Script implements  Starting, Ending {
             				Clicking.click(i);
             				General.sleep(500);
             				Keyboard.typeSend(line.substring(2));
-            				println("bad");
             			}
             		}
             	}
