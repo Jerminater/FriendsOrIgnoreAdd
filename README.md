@@ -1,8 +1,12 @@
 # FriendsOrIgnoreAdd
 
-Add the .class file to ...\.tribot\bin\friends\
+will add players to ignore list or friends list from a text file. Check to see if the people on ignore list have a previous name, and if they do, will add their current name and previous name to an ignore list file.
 
-Add the folder to ...\.tribot\. Edit the text file in ...\.tribot\FriendsList\scripts\friends\Friends.txt\ 
+1) Add the .class file to ...\.tribot\bin\friends\
 
-Ignore list will be at ...\.tribot\FriendsList\scripts\friends\IgnoreList.txt\
+2) Add the folder to ...\.tribot\. 
+
+3) Edit the text file in ...\.tribot\FriendsList\scripts\friends\Friends.txt\ 
+
+4) Ignore list will be at ...\.tribot\FriendsList\scripts\friends\IgnoreList.txt\
 
